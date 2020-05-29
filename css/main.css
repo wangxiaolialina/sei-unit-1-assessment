@@ -1,0 +1,17 @@
+.container {
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+input {
+    margin:0px 20px;
+}
