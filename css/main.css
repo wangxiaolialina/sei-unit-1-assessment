@@ -10,8 +10,61 @@
 .main {
     display: flex;
     flex-direction: row;
+    margin-top: 50px;
+    align-items: center;
 }
 
-input {
-    margin:0px 20px;
+
+.input {
+    margin: 0px 20px;
+    border-color: gray;
+    border-radius: 24%;
+    border: 5px solid grey;
+    font-size: 3vw;
+    width: 120px;
+    height: 70px;
+    text-align: center;
+}
+
+.plus-sign {
+    border: 1px solid gray;
+    border-radius: 15%;
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 3vw;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plus-sign:hover{
+    background-color: white;
+    color:grey;
+}
+
+.minus-sign {
+    border: 1px solid gray;
+    border-radius: 15%;
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 3vw;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.minus-sign:hover{
+    background-color: white;
+    color:grey;
+}
+.points{
+    font-size: 4vw;
+    font-weight: bold;
 }
